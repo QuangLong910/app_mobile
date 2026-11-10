@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding 1: đăng xe lên sàn. Màu theo bảng KYN: vàng F9C216, xanh đậm 1F3789, chữ 24231F. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:fillColor="#FAF5D3" android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    <!-- bóng dưới xe -->
+    <path android:fillColor="#E9DFA6" android:pathData="M100,160m-64,0a64,7 0,1 1,128 0a64,7 0,1 1,-128 0" />
+    <!-- mui xe -->
+    <path android:fillColor="#1F3789" android:pathData="M68,98 L82,72 Q85,68 90,68 L114,68 Q119,68 122,72 L136,98 Z" />
+    <!-- kính -->
+    <path android:fillColor="#DBE9FE" android:pathData="M76,96 L87,76 L98,76 L98,96 Z" />
+    <path android:fillColor="#DBE9FE" android:pathData="M104,96 L104,76 L112,76 Q115,76 117,79 L128,96 Z" />
+    <!-- thân xe -->
+    <path android:fillColor="#1F3789" android:pathData="M38,124 L46,104 Q50,96 60,96 L140,96 Q150,96 154,104 L162,124 Q170,126 170,136 L170,146 Q170,152 164,152 L36,152 Q30,152 30,146 L30,136 Q30,126 38,124 Z" />
+    <!-- đèn -->
+    <path android:fillColor="#F9C216" android:pathData="M150,124 L166,124 Q168,132 164,136 L150,136 Z" />
+    <path android:fillColor="#F6B30A" android:pathData="M34,126 L46,126 L46,136 L36,136 Q32,132 34,126 Z" />
+    <!-- bánh xe -->
+    <path android:fillColor="#24231F" android:pathData="M64,152m-17,0a17,17 0,1 1,34 0a17,17 0,1 1,-34 0" />
+    <path android:fillColor="#D6D6D1" android:pathData="M64,152m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <path android:fillColor="#24231F" android:pathData="M136,152m-17,0a17,17 0,1 1,34 0a17,17 0,1 1,-34 0" />
+    <path android:fillColor="#D6D6D1" android:pathData="M136,152m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <!-- huy hiệu "+" đăng xe -->
+    <path android:fillColor="#F9C216" android:pathData="M148,52m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <path android:fillColor="#24231F" android:pathData="M144,38 L152,38 L152,48 L162,48 L162,56 L152,56 L152,66 L144,66 L144,56 L134,56 L134,48 L144,48 Z" />
+</vector>

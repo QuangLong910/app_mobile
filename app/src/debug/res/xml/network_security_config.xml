@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Chỉ áp cho bản debug. Mở cleartext cho mọi địa chỉ để ai trong nhóm cũng trỏ được vào
+  máy chạy backend của mình — cáp USB, IP LAN hay địa chỉ Tailscale — mà không phải sửa
+  tệp XML rồi build lại.
+
+  Bản release dùng tệp ở src/main, chỉ mở đúng vài địa chỉ đã khai.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

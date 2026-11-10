@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding 3: biên bản giao xe hai chiều — ảnh, số ODO, chữ ký hai bên. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:fillColor="#FAF5D3" android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    <!-- tờ biên bản -->
+    <path android:fillColor="#FFFFFF" android:strokeColor="#E7E7E4" android:strokeWidth="2" android:pathData="M58,34 L142,34 Q150,34 150,42 L150,158 Q150,166 142,166 L58,166 Q50,166 50,158 L50,42 Q50,34 58,34 Z" />
+    <path android:fillColor="#24231F" android:pathData="M64,48 L104,48 L104,55 L64,55 Z" />
+    <!-- 6 ảnh -->
+    <path android:fillColor="#DBE9FE" android:pathData="M64,66 L84,66 L84,82 L64,82 Z" />
+    <path android:fillColor="#DBE9FE" android:pathData="M90,66 L110,66 L110,82 L90,82 Z" />
+    <path android:fillColor="#DBE9FE" android:pathData="M116,66 L136,66 L136,82 L116,82 Z" />
+    <path android:fillColor="#DBE9FE" android:pathData="M64,88 L84,88 L84,104 L64,104 Z" />
+    <path android:fillColor="#DBE9FE" android:pathData="M90,88 L110,88 L110,104 L90,104 Z" />
+    <path android:fillColor="#DBE9FE" android:pathData="M116,88 L136,88 L136,104 L116,104 Z" />
+    <path android:fillColor="#1F3789" android:pathData="M64,100 L72,90 L80,98 L84,94 L84,104 L64,104 Z" />
+    <path android:fillColor="#1F3789" android:pathData="M90,100 L98,90 L106,98 L110,94 L110,104 L90,104 Z" />
+    <path android:fillColor="#1F3789" android:pathData="M116,100 L124,90 L132,98 L136,94 L136,104 L116,104 Z" />
+    <!-- ODO -->
+    <path android:fillColor="#F9C216" android:pathData="M64,112 L102,112 Q106,112 106,116 L106,124 Q106,128 102,128 L64,128 Q60,128 60,124 L60,116 Q60,112 64,112 Z" />
+    <path android:fillColor="#24231F" android:pathData="M68,118 L98,118 L98,122 L68,122 Z" />
+    <!-- hai chữ ký -->
+    <path android:strokeColor="#1F3789" android:strokeWidth="3" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M62,148 C66,136 70,136 72,146 C74,154 78,140 82,144 C85,147 88,146 92,142" />
+    <path android:strokeColor="#1F3789" android:strokeWidth="3" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M108,146 C112,138 116,138 118,146 C120,152 124,142 128,146 C131,148 134,146 138,142" />
+    <path android:fillColor="#D6D6D1" android:pathData="M60,154 L96,154 L96,156 L60,156 Z" />
+    <path android:fillColor="#D6D6D1" android:pathData="M104,154 L140,154 L140,156 L104,156 Z" />
+    <!-- dấu tích hai chiều -->
+    <path android:fillColor="#16A34A" android:pathData="M148,150m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="6" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M137,150 L145,158 L159,142" />
+</vector>

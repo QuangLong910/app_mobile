@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding 4: tiền về tài khoản — tờ tiền và đồng xu. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:fillColor="#FAF5D3" android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    <!-- tờ tiền phía sau -->
+    <group android:pivotX="100" android:pivotY="100" android:rotation="-10">
+        <path android:fillColor="#DBE9FE" android:pathData="M44,66 L148,66 Q154,66 154,72 L154,118 Q154,124 148,124 L44,124 Q38,124 38,118 L38,72 Q38,66 44,66 Z" />
+    </group>
+    <!-- tờ tiền phía trước -->
+    <path android:fillColor="#1F3789" android:pathData="M42,80 L150,80 Q156,80 156,86 L156,134 Q156,140 150,140 L42,140 Q36,140 36,134 L36,86 Q36,80 42,80 Z" />
+    <path android:strokeColor="#3B5AC0" android:strokeWidth="2" android:pathData="M46,90 L146,90 L146,130 L46,130 Z" />
+    <path android:fillColor="#F9C216" android:pathData="M96,110m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <path android:fillColor="#24231F" android:pathData="M93,102 L99,102 L99,118 L93,118 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M54,98 L70,98 L70,102 L54,102 Z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M122,118 L138,118 L138,122 L122,122 Z" />
+    <!-- đồng xu -->
+    <path android:fillColor="#F6B30A" android:pathData="M148,146m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+    <path android:fillColor="#F9C216" android:pathData="M148,146m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+    <path android:fillColor="#24231F" android:pathData="M145,134 L151,134 L151,158 L145,158 Z" />
+    <path android:fillColor="#24231F" android:pathData="M138,140 L158,140 L158,144 L138,144 Z" />
+    <!-- lấp lánh -->
+    <path android:fillColor="#F9C216" android:pathData="M56,50 L59,58 L67,61 L59,64 L56,72 L53,64 L45,61 L53,58 Z" />
+    <path android:fillColor="#F9C216" android:pathData="M150,42 L152,48 L158,50 L152,52 L150,58 L148,52 L142,50 L148,48 Z" />
+</vector>

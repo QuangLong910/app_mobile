@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Onboarding 2: nhận đơn. Thẻ đơn thuê kèm dấu tích xác nhận. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:fillColor="#FAF5D3" android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    <!-- thẻ đơn -->
+    <path android:fillColor="#FFFFFF" android:strokeColor="#E7E7E4" android:strokeWidth="2" android:pathData="M56,42 L136,42 Q144,42 144,50 L144,150 Q144,158 136,158 L56,158 Q48,158 48,150 L48,50 Q48,42 56,42 Z" />
+    <path android:fillColor="#1F3789" android:pathData="M56,42 L136,42 Q144,42 144,50 L144,68 L48,68 L48,50 Q48,42 56,42 Z" />
+    <path android:fillColor="#F9C216" android:pathData="M60,55m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M72,52 L118,52 L118,58 L72,58 Z" />
+    <!-- dòng thông tin -->
+    <path android:fillColor="#D6D6D1" android:pathData="M60,82 L124,82 L124,88 L60,88 Z" />
+    <path android:fillColor="#E7E7E4" android:pathData="M60,98 L108,98 L108,104 L60,104 Z" />
+    <path android:fillColor="#E7E7E4" android:pathData="M60,114 L116,114 L116,120 L60,120 Z" />
+    <!-- nút nhận / từ chối -->
+    <path android:fillColor="#F9C216" android:pathData="M60,132 L96,132 Q100,132 100,136 L100,144 Q100,148 96,148 L60,148 Q56,148 56,144 L56,136 Q56,132 60,132 Z" />
+    <path android:fillColor="#E7E7E4" android:pathData="M108,132 L128,132 Q132,132 132,136 L132,144 Q132,148 128,148 L108,148 Q104,148 104,144 L104,136 Q104,132 108,132 Z" />
+    <!-- dấu tích -->
+    <path android:fillColor="#16A34A" android:pathData="M142,138m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="7" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M129,138 L139,148 L156,128" />
+</vector>

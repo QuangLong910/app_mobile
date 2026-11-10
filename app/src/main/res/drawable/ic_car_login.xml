@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Xe ô tô nhìn ngang, dùng ở màn đăng nhập thay logo. Thân màu thương hiệu, kính khoét rỗng. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="80dp"
+    android:viewportWidth="120"
+    android:viewportHeight="60">
+    <!-- Thân xe kèm hai ô kính (evenOdd để kính thành lỗ trống) -->
+    <path
+        android:fillColor="#5452F6"
+        android:fillType="evenOdd"
+        android:pathData="M6,42 L6,34 Q6,29 11,28 L27,25 L40,12 Q42,10 46,10 L78,10 Q82,10 84,12 L98,26 L109,28 Q114,29 114,34 L114,42 Q114,46 110,46 L106,46 A10,10 0 0 0 86,46 L34,46 A10,10 0 0 0 14,46 L10,46 Q6,46 6,42 Z M45,15 L61,15 L61,25 L36,25 Z M66,15 L77,15 L90,25 L66,25 Z" />
+    <!-- Bánh xe -->
+    <path
+        android:fillColor="#24231F"
+        android:pathData="M24,46 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,46 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path
+        android:fillColor="#24231F"
+        android:pathData="M96,46 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M96,46 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <!-- Đèn pha -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M108,31 L112,31 L112,35 L108,35 Z" />
+</vector>
